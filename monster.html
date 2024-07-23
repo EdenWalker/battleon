@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>mainpage</title>
+</head>
+
+<body class="paper">
+  <div class="container">
+
+    <form>
+      <label for="monster_id">Monster ID:</label>
+      <input type="text" id="monster_id" name="monster_id"><br><br>
+
+      <label for="monster">Monster:</label>
+      <input type="text" id="monster" name="monster"><br><br>
+
+      <label for="type">Type:</label>
+      <input type="text" id="type" name="type"><br><br>
+
+      <label for="element">Element:</label>
+      <input type="text" id="element" name="element"><br><br>
+
+      <label for="level">Level:</label>
+      <input type="text" id="level" name="level"><br><br>
+
+      <label for="rarity">Rarity:</label>
+      <input type="text" id="rarity" name="rarity"><br><br>
+
+      <label for="weakness">Weakness Multiplier:</label>
+      <input type="text" id="weakness" name="weakness"><br><br>
+
+      <label for="location">Location Landmark:</label>
+      <input type="text" id="location" name="location"><br><br>
+
+      <label for="hitpoint">Hitpoints:</label>
+      <input type="number" id="hitpoint" name="hitpoint"><br><br>
+
+      <label for="attack">Attack:</label>
+      <input type="text" id="attack" name="attack"><br><br>
+
+      <label for="defence">Defense:</label>
+      <input type="number" id="defence" name="defence"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="player.js"></script>
+  <script src="monster.json"></script>
+  <script src="action.js"></script>
+  <script src="monstercode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container pt-2">
+    <div class="save ">
+      <label for="isbntext">Save</label><br>
+      <input id="isbntext" style="width: 25%;"><br><br>
+
+      <button id="isbnbtn" class="btn btn-light">Load Save file</button>
+      <button id="makeisbnbtn" class="btn btn-light">Create Save File</button><br><br>
+    </div>
+    <h1>Hello Player</h1>
+
+    <div class="setting">
+      <label for="diff">Difficulty Level:</label><br>
+      <select id="diff" style="width: 25%;">
+        <option value="1">Harmless</option>
+        <option value="2">Hurtful</option>
+        <option value="3">Hard</option>
+        <option value="4">Nightmare</option>
+        <option value="5">Hellish</option>
+        <option value="6">Hell</option>
+        <option value="7">Heaven</option>
+      </select>
+      <br><br>
+
+
+
+      <button id="hunt" class="btn-light">Hunt</button>
+      <button id="attack" class="btn-light">Attack</button>
+      <button id="escape" class="btn-light">Run</button><br><br>
+    </div>
+
+    <div class="row pt-2">
+      <div class="player col-6">
+        <div class="simple" id="playerbox" readonly>Player info
+        </div><br>
+      </div>
+      <div class="monster col-6 ">
+        <div class="simple" id="monsterbox" readonly>monsters appear here
+        </div><br>
+      </div>
+    </div>
+    <!-- <label for="subject" >Task:</label><br>
+    <input id="subject" style="width: 25%;"><br><br>
+
+ <label for="reg">ID:</label><br>
+    <input id="reg" style="width: 25%;"><br><br> -->
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="player.js"></script>
+  <script src="action.js"></script>
+  <script src="monstercode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello, world!</title>
+</head>
+
+<body class="paper">
+  <div class="container paper ">
+    <form class="row ">
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="name">Name:</label>
+        <input class="col-12 clear" type="text" id="name" name="name" placeholder="Eden Walker">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="race">Initial Race:</label>
+        <input class="col-12 clear" type="text" id="race" name="race" placeholder="Human">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 ">
+        <label for="class">Initial Class:</label>
+        <input class="col-12 clear" type="text" id="class" name="class" placeholder="Warrior">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="level">Initial Level:</label>
+        <input class="col-12 clear" type="number" id="level" name="level" placeholder="1">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="healthPoints">Initial Health Points:</label>
+        <input class="col-12 clear" type="number" id="healthPoints" name="healthPoints" placeholder="20">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="strength">Initial Strength:</label>
+        <input class="col-12 clear" type="number" id="strength" name="strength" placeholder=12>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="dexterity">Initial Dexterity:</label>
+        <input class="col-12 clear" type="number" id="dexterity" name="dexterity" placeholder="15">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="constitution">Initial Constitution:</label>
+        <input class="col-12 clear" type="number" id="constitution" name="constitution" placeholder="16">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="intelligence">Initial Intelligence:</label>
+        <input class="col-12 clear" type="number" id="intelligence" name="intelligence" placeholder="11">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="wisdom">Initial Wisdom:</label>
+        <input class="col-12 clear" type="number" id="wisdom" name="wisdom" placeholder="15">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <label for="charisma">Initial Charisma:</label>
+        <input class="col-12 clear" class="col " type="number" id="charisma" name="charisma" placeholder="15">
+      </div>
+      <div class=" row " style="margin-inline: auto">
+        <div class="col-6 "style="margin-inline: auto">
+          <label for="skills">Skills:</label><br>
+          <div class="col-12 paper2 " id="skills" name="skills" rows="4"
+            cols="50"> swordsmanship": Proficient, shieldDefense Novice, athletics: Average</div>
+        </div>
+        <div class="col-6  "style="margin-inline: auto">
+          <label for="inventory">Inventory:</label><br>
+          <div class="col-12 paper2" id="inventory" name="inventory" rows="4"
+            cols="50"> Longsword", Wooden Shield, Chainmail Armor, Health Potion x2</div>
+        </div>
+      </div>
+      <input class="col-11 btn paper2 mt-1" style="margin-inline: auto; ;" type="submit" value="Submit">
+    </form>
+
+    <div style="margin-top: 20px; text-align: center;">
+      <button class=" col-11 btn paper2 mt-1"  onclick="updateDisplay()">Update Display</button>
+    </div>
+    <div class="row mt-3">
+      <table class="col-5 paper2" style="margin-inline: auto;" >
+        <tr>
+          <td>Name:</td>
+          <td id="name2" style="text-align:right  ">Eden Walker</td>
+        </tr>
+        <tr>
+          <td>Race:</td>
+          <td id="race2" style="text-align:right">Human</td>
+        </tr>
+        <tr>
+          <td>Class:</td>
+          <td id="class2" style="text-align:right">Warrior</td>
+        </tr>
+        <tr>
+          <td>Level:</td>
+          <td id="level2" style="text-align:right">1</td>
+        </tr>
+        <tr>
+          <td>Health Points:</td>
+          <td id="healthPoints2" style="text-align:right">20</td>
+        </tr>
+        <tr>
+          <td>Strength:</td>
+          <td id="strength2" style="text-align:right">15</td>
+        </tr>
+        <tr>
+          <td>Dexterity:</td>
+          <td id="dexterity2" style="text-align:right">12</td>
+        </tr>
+        <tr>
+          <td>Constitution:</td>
+          <td id="constitution2" style="text-align:right">14</td>
+        </tr>
+        <tr>
+          <td>Intelligence:</td>
+          <td id="intelligence2" style="text-align:right">10</td>
+        </tr>
+        <tr>
+          <td>Wisdom:</td>
+          <td id="wisdom2" style="text-align:right">8</td>
+        </tr>
+        <tr>
+          <td>Charisma:</td>
+          <td id="charisma2" style="text-align:right">11</td>
+        </tr>
+      </table>
+      <table class="col-6 paper2" style="margin-inline: auto;" >
+        <tr>
+          <td >Skills:</td>
+          <td>
+            <ul id="skills2"style="text-align: right;list-style-type: none;">
+              <li>Swordsmanship: Proficient</li>
+              <li>Shield Defense: Novice</li>
+              <li>Athletics: Average</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td >Inventory:</td>
+          <td>
+            <ul id="inventory2" style="text-align: right;list-style-type: none;">
+              <li>Longsword</li>
+              <li>Wooden Shield</li>
+              <li>Chainmail Armor</li>
+              <li>Health Potion x2</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="player.js"></script>
+  <script src="action.js"></script>
+  <script src="monstercode.js"></script>
+</body>
+
+</html>

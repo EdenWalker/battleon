@@ -1,0 +1,44 @@
+.player {
+  height: auto;
+
+  background-color: rgb(248, 88, 82);
+}
+
+.monster {
+  height: auto;
+  float: right;
+  background-color: blanchedalmond;
+}
+
+.save {
+  background-color: rgb(59, 248, 84);
+}
+
+.setting {
+  background-color: blanchedalmond;
+}
+
+.simple {
+  width: 80%;
+  height: 200px;
+  /* background-color: aqua; */
+}
+
+.centering {
+
+  align-items: center;
+
+}
+.paper{
+  background-image: url(paper2.jpg) ;
+  background-size: 99% 99%;
+
+}
+.clear{
+background-color: transparent;
+
+}
+.paper2{
+  background-image: url(paperback.jpg) ;
+  background-size: 99% 99%;
+}

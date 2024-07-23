@@ -1,0 +1,30 @@
+
+
+[
+    {
+        "monster id": "0000",
+        "monster": "dire wolf",
+        "type": "wolf",
+        "element": "normal",
+        "level": "5",
+        "rarity": "common",
+        "weakness": { "multiplier": ["eyes", "belly"] },
+        "location": { "landmark": ["forest", "plains"] },
+        "hitpoint": 25,
+        "attack": "2-5",
+        "defence": 1
+    },
+    {
+        "monster id": "0001",
+        "monster": "new monster",
+        "type": "beast",
+        "element": "fire",
+        "level": "3",
+        "rarity": "rare",
+        "weakness": { "multiplier": ["back", "tail"] },
+        "location": { "landmark": ["mountain", "cave"] },
+        "hitpoint": 30,
+        "attack": "3-7",
+        "defence": 2
+    }
+]
