@@ -1,158 +1,276 @@
-
-
 [
     {
-        "monster id": "0000",
+        "monster_id": "0000",
         "monster": "Dire Wolf",
         "type": "Wolf",
-        "element": "1",
+        "element_id": "1",
         "level": "5",
         "rarity": "Common",
-        "weakness": { "Multiplier": ["eyes", "belly"] },
-        "location": { "landmark": ["forest", "plains"] },
+        "weakness": {
+            "multiplier_id": [
+                "1",
+                "2"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "1",
+                "2"
+            ]
+        },
         "hitpoint": 25,
         "attack": "2-5",
         "defence": 1
     },
     {
-        "monster id": "0001",
+        "monster_id": "0001",
         "monster": "Fire Fox",
         "type": "Fox",
-        "element": "2",
+        "element_id": "2",
         "level": "3",
         "rarity": "Rare",
-        "weakness": { "multiplier": ["back", "tail"] },
-        "location": { "landmark": ["mountain", "cave"] },
+        "weakness": {
+            "multiplier_id": [
+                "3",
+                "4"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "3",
+                "4"
+            ]
+        },
         "hitpoint": 30,
         "attack": "3-7",
         "defence": 2
     },
     {
-        "monster id": "0002",
-        "monster": "thunderbird",
+        "monster_id": "0002",
+        "monster": "Thunderbird",
         "type": "bird",
-        "element": "electric",
+        "element_id": "3",
         "level": "4",
-        "rarity": "uncommon",
-        "weakness": { "multiplier": ["head", "wings"] },
-        "location": { "landmark": ["sky", "stormy areas"] },
+        "rarity": "Uncommon",
+        "weakness": {
+            "multiplier_id": [
+                "5",
+                "6"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "5",
+                "6"
+            ]
+        },
         "hitpoint": 28,
         "attack": "4-6",
         "defence": 3
     },
     {
-        "monster id": "0003",
-        "monster": "stone golem",
-        "type": "golem",
-        "element": "earth",
+        "monster_id": "0003",
+        "monster": "Stone Golem",
+        "type": "Golem",
+        "element_id": "4",
         "level": "6",
-        "rarity": "rare",
-        "weakness": { "multiplier": ["water", "ice"] },
-        "location": { "landmark": ["mountain", "cave"] },
+        "rarity": "Rare",
+        "weakness": {
+            "multiplier_id": [
+                "7",
+                "8"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "3",
+                "4"
+            ]
+        },
         "hitpoint": 40,
         "attack": "5-8",
         "defence": 5
     },
     {
-        "monster id": "0004",
-        "monster": "frost dragon",
-        "type": "dragon",
-        "element": "ice",
+        "monster_id": "0004",
+        "monster": "Frost Dragon",
+        "type": "Dragon",
+        "element_id": "5",
         "level": "8",
-        "rarity": "epic",
-        "weakness": { "multiplier": ["fire", "head"] },
-        "location": { "landmark": ["frozen wasteland", "cave"] },
+        "rarity": "Epic",
+        "weakness": {
+            "multiplier_id": [
+                "2",
+                "5"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "7",
+                "4"
+            ]
+        },
         "hitpoint": 60,
         "attack": "7-12",
         "defence": 7
     },
     {
-        "monster id": "0005",
-        "monster": "shadow panther",
-        "type": "panther",
-        "element": "dark",
+        "monster_id": "0005",
+        "monster": "Shadow Panther",
+        "type": "Panther",
+        "element_id": "6",
         "level": "5",
-        "rarity": "rare",
-        "weakness": { "multiplier": ["light", "chest"] },
-        "location": { "landmark": ["dense forest", "nighttime"] },
+        "rarity": "Rare",
+        "weakness": {
+            "multiplier_id": [
+                "6",
+                "7"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "8",
+                "9"
+            ]
+        },
         "hitpoint": 35,
         "attack": "4-9",
         "defence": 4
     },
     {
-        "monster id": "0006",
-        "monster": "phoenix",
-        "type": "bird",
-        "element": "fire",
+        "monster_id": "0006",
+        "monster": "Phoenix",
+        "type": "Bird",
+        "element_id": "2",
         "level": "7",
-        "rarity": "epic",
-        "weakness": { "multiplier": ["water", "head"] },
-        "location": { "landmark": ["volcano", "ancient ruins"] },
+        "rarity": "Epic",
+        "weakness": {
+            "multiplier_id": [
+                "7",
+                "5"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "17",
+                "10"
+            ]
+        },
         "hitpoint": 50,
         "attack": "6-10",
         "defence": 6
     },
     {
-        "monster id": "0007",
-        "monster": "sand worm",
-        "type": "worm",
-        "element": "earth",
+        "monster_id": "0007",
+        "monster": "Sand Worm",
+        "type": "Worm",
+        "element_id": "4",
         "level": "4",
-        "rarity": "uncommon",
-        "weakness": { "multiplier": ["ice", "tail"] },
-        "location": { "landmark": ["desert", "sand dunes"] },
+        "rarity": "Uncommon",
+        "weakness": {
+            "multiplier_id": [
+                "5",
+                "9"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "11",
+                "12"
+            ]
+        },
         "hitpoint": 30,
         "attack": "3-6",
         "defence": 2
     },
     {
-        "monster id": "0008",
-        "monster": "sea serpent",
-        "type": "serpent",
-        "element": "water",
+        "monster_id": "0008",
+        "monster": "Sea Serpent",
+        "type": "Serpent",
+        "element_id": "7",
         "level": "6",
-        "rarity": "rare",
-        "weakness": { "multiplier": ["electric", "fins"] },
-        "location": { "landmark": ["ocean", "deep sea"] },
+        "rarity": "Rare",
+        "weakness": {
+            "multiplier_id": [
+                "3",
+                "8"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "13",
+                "14"
+            ]
+        },
         "hitpoint": 45,
         "attack": "5-9",
         "defence": 5
     },
     {
-        "monster id": "0009",
-        "monster": "storm elemental",
-        "type": "elemental",
-        "element": "electric",
+        "monster_id": "0009",
+        "monster": "Storm Elemental",
+        "type": "Elemental",
+        "element_id": "3",
         "level": "5",
-        "rarity": "rare",
-        "weakness": { "multiplier": ["ground", "core"] },
-        "location": { "landmark": ["stormy skies", "tempest plains"] },
+        "rarity": "Rare",
+        "weakness": {
+            "multiplier_id": [
+                "10",
+                "4"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "15",
+                "16"
+            ]
+        },
         "hitpoint": 38,
         "attack": "4-8",
         "defence": 4
     },
     {
-        "monster id": "0010",
-        "monster": "lava drake",
-        "type": "drake",
-        "element": "fire",
+        "monster_id": "0010",
+        "monster": "Lava Drake",
+        "type": "Drake",
+        "element_id": "2",
         "level": "7",
-        "rarity": "epic",
-        "weakness": { "multiplier": ["water", "underbelly"] },
-        "location": { "landmark": ["volcanic caves", "molten fields"] },
+        "rarity": "Epic",
+        "weakness": {
+            "multiplier_id": [
+                "2",
+                "9"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "17",
+                "18"
+            ]
+        },
         "hitpoint": 55,
         "attack": "6-11",
         "defence": 6
     },
     {
-        "monster id": "0011",
-        "monster": "giant spider",
-        "type": "arachnid",
-        "element": "poison",
+        "monster_id": "0011",
+        "monster": "Giant Spider",
+        "type": "Arachnid",
+        "element_id": "8",
         "level": "4",
-        "rarity": "uncommon",
-        "weakness": { "multiplier": ["fire", "head"] },
-        "location": { "landmark": ["dark caves", "haunted forests"] },
+        "rarity": "Uncommon",
+        "weakness": {
+            "multiplier_id": [
+                "3",
+                "5"
+            ]
+        },
+        "location": {
+            "landmark_id": [
+                "19",
+                "20"
+            ]
+        },
         "hitpoint": 32,
         "attack": "3-7",
         "defence": 3

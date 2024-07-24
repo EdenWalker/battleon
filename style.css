@@ -42,3 +42,20 @@ background-color: transparent;
   background-image: url(paperback.jpg) ;
   background-size: 99% 99%;
 }
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  min-width: 100px;/* min-width: 150px;; Fixed width for labels (adjust as needed) */
+  margin-right: 1rem;
+}
+
+.form-row input {
+  flex: 1; /* Take up remaining space */
+  width: 100%; /* Ensure input fills the remaining space */
+  text-align: right
+}
+

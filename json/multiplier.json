@@ -1,0 +1,54 @@
+{
+  "multipliers": [
+      {
+          "multiplier_id": "1",
+          "name": "eyes",
+          "description": "Weakness to attacks targeting the eyes."
+      },
+      {
+          "multiplier_id": "2",
+          "name": "belly",
+          "description": "Vulnerability to attacks directed at the belly."
+      },
+      {
+          "multiplier_id": "3",
+          "name": "back",
+          "description": "Susceptibility to attacks from the back."
+      },
+      {
+          "multiplier_id": "4",
+          "name": "tail",
+          "description": "Weakness to attacks on the tail."
+      },
+      {
+          "multiplier_id": "5",
+          "name": "head",
+          "description": "Vulnerability to attacks directed at the head."
+      },
+      {
+          "multiplier_id": "6",
+          "name": "wings",
+          "description": "Susceptibility to attacks aimed at the wings."
+      },
+      {
+          "multiplier_id": "7",
+          "name": "chest",
+          "description": "Weakness to attacks targeting the chest area."
+      },
+      {
+          "multiplier_id": "8",
+          "name": "fins",
+          "description": "Vulnerability to attacks on the fins."
+      },
+      {
+          "multiplier_id": "9",
+          "name": "underbelly",
+          "description": "Susceptibility to attacks on the underbelly."
+      },
+      {
+          "multiplier_id": "10",
+          "name": "core",
+          "description": "Weakness to attacks on the core."
+      }
+  ]
+}

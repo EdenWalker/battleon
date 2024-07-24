@@ -12,20 +12,39 @@
   <title>Hello, world!</title>
 </head>
 
-<body>
-  <div class="container pt-2">
-    <div class="save ">
+<body class="paper">
+<nav class="navbar navbar-expand-sm paper">
+  
+      <div class="container-fluid">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link paper2" href="index.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link paper2" href="player.html">Player</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link paper2" href="monster.html">Monster</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+   
+  <div class="container paper pt-2">
+    
+    <div class="save clear ">
       <label for="isbntext">Save</label><br>
-      <input id="isbntext" style="width: 25%;"><br><br>
+      <input id="isbntext" class="paper2" style="width: 25%;"><br><br>
 
-      <button id="isbnbtn" class="btn btn-light">Load Save file</button>
-      <button id="makeisbnbtn" class="btn btn-light">Create Save File</button><br><br>
+      <button id="isbnbtn" class="btn paper2">Load Save file</button>
+      <button id="makeisbnbtn" class="btn paper2">Create Save File</button><br><br>
     </div>
     <h1>Hello Player</h1>
 
-    <div class="setting">
+    <div class="setting clear">
       <label for="diff">Difficulty Level:</label><br>
-      <select id="diff" style="width: 25%;">
+      <select id="diff" class="paper2" style="width: 25%;">
         <option value="1">Harmless</option>
         <option value="2">Hurtful</option>
         <option value="3">Hard</option>
@@ -36,9 +55,9 @@
       </select>
       <br><br>
 
-      <div class="setting">
+      <div class="setting clear">
         <label for="location">Location:</label><br>
-        <select id="location" style="width: 25%;">
+        <select id="location" class="paper2" style="width: 25%;">
           <option value="1">Forest</option>
           <option value="2">Volcano</option>
           <option value="3">Desert</option>
@@ -47,26 +66,22 @@
         </select>
         <br><br>
 
-      <button id="hunt" class="btn-light">Hunt</button>
-      <button id="attack" class="btn-light">Attack</button>
-      <button id="escape" class="btn-light">Run</button><br><br>
+      <button id="hunt" class="paper2">Hunt</button>
+      <button id="attack" class="paper2">Attack</button>
+      <button id="escape" class="paper2">Run</button><br><br>
     </div>
 
     <div class="row pt-2">
-      <div class="player col-6">
-        <div class="simple" id="playerbox" >Player info
+      <div class="player paper col-6">
+        <div class="simple " id="playerbox" >Player info
         </div><br>
       </div>
-      <div class="monster col-6 ">
+      <div class="monster paper col-6 ">
         <div class="simple" id="monsterbox" >Monsters appear here
         </div><br>
       </div>
     </div>
-    <!-- <label for="subject" >Task:</label><br>
-    <input id="subject" style="width: 25%;"><br><br>
 
- <label for="reg">ID:</label><br>
-    <input id="reg" style="width: 25%;"><br><br> -->
 
 
   </div>

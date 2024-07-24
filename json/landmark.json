@@ -1,0 +1,104 @@
+{
+  "landmarks": [
+      {
+          "landmark_id": "1",
+          "name": "forest",
+          "description": "Located in dense woodland areas."
+      },
+      {
+          "landmark_id": "2",
+          "name": "plains",
+          "description": "Found in wide, open grasslands."
+      },
+      {
+          "landmark_id": "3",
+          "name": "mountain",
+          "description": "Located high up in mountainous regions."
+      },
+      {
+          "landmark_id": "4",
+          "name": "cave",
+          "description": "Found deep within natural underground caverns."
+      },
+      {
+          "landmark_id": "5",
+          "name": "sky",
+          "description": "Found high in the sky or among the clouds."
+      },
+      {
+          "landmark_id": "6",
+          "name": "stormy areas",
+          "description": "Located in areas with frequent storms or lightning."
+      },
+      {
+          "landmark_id": "7",
+          "name": "frozen wasteland",
+          "description": "Found in icy, desolate regions."
+      },
+      {
+          "landmark_id": "8",
+          "name": "dense forest",
+          "description": "Located in thick, overgrown forests."
+      },
+      {
+          "landmark_id": "9",
+          "name": "nighttime",
+          "description": "Found primarily during the night."
+      },
+      {
+          "landmark_id": "10",
+          "name": "ancient ruins",
+          "description": "Located within the remains of ancient civilizations."
+      },
+      {
+          "landmark_id": "11",
+          "name": "desert",
+          "description": "Found in arid, sandy desert environments."
+      },
+      {
+          "landmark_id": "12",
+          "name": "sand dunes",
+          "description": "Located in shifting sand dunes."
+      },
+      {
+          "landmark_id": "13",
+          "name": "ocean",
+          "description": "Found deep within the vast oceans."
+      },
+      {
+          "landmark_id": "14",
+          "name": "deep sea",
+          "description": "Located in the darkest depths of the ocean."
+      },
+      {
+          "landmark_id": "15",
+          "name": "stormy skies",
+          "description": "Found high in the skies during stormy weather."
+      },
+      {
+          "landmark_id": "16",
+          "name": "tempest plains",
+          "description": "Located in flat plains with frequent tempests."
+      },
+      {
+          "landmark_id": "17",
+          "name": "volcanic caves",
+          "description": "Found deep within lava-filled caverns."
+      },
+      {
+          "landmark_id": "18",
+          "name": "molten fields",
+          "description": "Located in fields of molten lava."
+      },
+      {
+          "landmark_id": "19",
+          "name": "dark caves",
+          "description": "Found in deep, dark underground caves."
+      },
+      {
+          "landmark_id": "20",
+          "name": "haunted forests",
+          "description": "Located in eerie, haunted woodland areas."
+      }
+  ]
+}
