@@ -36,7 +36,16 @@
       </select>
       <br><br>
 
-
+      <div class="setting">
+        <label for="location">Location:</label><br>
+        <select id="location" style="width: 25%;">
+          <option value="1">Forest</option>
+          <option value="2">Volcano</option>
+          <option value="3">Desert</option>
+          <option value="4">Shore</option>
+          <option value="5">Grassland</option>
+        </select>
+        <br><br>
 
       <button id="hunt" class="btn-light">Hunt</button>
       <button id="attack" class="btn-light">Attack</button>
@@ -45,11 +54,11 @@
 
     <div class="row pt-2">
       <div class="player col-6">
-        <div class="simple" id="playerbox" readonly>Player info
+        <div class="simple" id="playerbox" >Player info
         </div><br>
       </div>
       <div class="monster col-6 ">
-        <div class="simple" id="monsterbox" readonly>monsters appear here
+        <div class="simple" id="monsterbox" >Monsters appear here
         </div><br>
       </div>
     </div>

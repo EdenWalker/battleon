@@ -1,38 +1,44 @@
-let todos = [];
-todos.push({ Id: 1, Name: "Buy groceries", Urgency: 3 }, { Id: 2, Name: "Call dad", Urgency: 2 }, { Id: 3, Name: "Finish project report", Urgency: 5 }
-);
-let submitButton = document.querySelector("#submitBtn");
-submitButton.addEventListener("click", function(){
-  let firstNameInput = document.querySelector("#firstName");
-  let firstName = firstNameInput.value;
+document.addEventListener('DOMContentLoaded', function() {
+  const monsterFile = 'monster.json';
 
-  // we can do the querySelector and getting the value in one line
-  let phoneNumber = document.querySelector("#phoneNumber").value;
-
-  // extract which role has been selected
-  let roleCheckbox = document.querySelector(".role:checked");
-  let role = roleCheckbox.value;
-
-  // by contrast, getElementById or getElementsByClassName is more limited
-  // you cannot use pesudo class. You can only indicate the name of the Id or class
-  // let roleCheckboxes = document.getElementsByClassName("role");
-  // let checked = null;
-  // for (let c of roleCheckboxes) {
-  //   if (c.checked == true) {
-  //     checked = c;
-  //     break;
-  //   }
-  // }
-
-  // get all the checkboxes that have been checked
-  let selectedCheckboxes = document.querySelectorAll('.tasks:checked');
-  let tasks = []; //<-- represent the result or answer (aka accumulator)
-  for (let checkbox of selectedCheckboxes) {
-    tasks.push(checkbox.value);
+  // Fetch data from monster.json
+  function fetchMonsterData(callback) {
+      fetch(monsterFile)
+          .then(response => response.json())
+          .then(data => callback(data))
+          .catch(error => console.error('Error fetching monster data:', error));
   }
 
+  // Function to get a random monster from the data array
+  function getRandomMonster(monsters) {
+      const randomIndex = Math.floor(Math.random() * monsters.length);
+      return monsters[randomIndex];
+  }
 
-  let industry = document.querySelector("#industry").value;
-  
+  // Function to render monster information in #monsterbox
+  function renderMonsterInfo(monsterData) {
+      const monsterBox = document.getElementById('monsterbox');
 
-  console.log(firstName, phoneNumber, role, tasks, industry);})
+      // Get a random monster
+      const randomMonster = getRandomMonster(monsterData);
+
+      // Construct HTML based on random monster
+      monsterBox.innerHTML = `
+          <h2>${randomMonster.monster}</h2>
+          <p><strong>Type:</strong> ${randomMonster.type}</p>
+          <p><strong>Element:</strong> ${randomMonster.element}</p>
+          <p><strong>Level:</strong> ${randomMonster.level}</p>
+          <p><strong>Rarity:</strong> ${randomMonster.rarity}</p>
+          <p><strong>Weakness:</strong> ${randomMonster.weakness.multiplier.join(', ')}</p>
+          <p><strong>Location:</strong> ${randomMonster.location.landmark.join(', ')}</p>
+          <p><strong>Hitpoints:</strong> ${randomMonster.hitpoint}</p>
+          <p><strong>Attack:</strong> ${randomMonster.attack}</p>
+          <p><strong>Defence:</strong> ${randomMonster.defence}</p>
+      `;
+  }
+
+  // Event listener for #hunt button click
+  document.getElementById('hunt').addEventListener('click', function() {
+      fetchMonsterData(renderMonsterInfo);
+  });
+});
