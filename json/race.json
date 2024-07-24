@@ -1,0 +1,49 @@
+{
+  "races": [
+    {
+      "id": 1,
+      "name": "Dwarf",
+      "description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal."
+    },
+    {
+      "id": 2,
+      "name": "Elf",
+      "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it."
+    },
+    {
+      "id": 3,
+      "name": "Halfling",
+      "description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense."
+    },
+    {
+      "id": 4,
+      "name": "Human",
+      "description": "Humans are the most adaptable and ambitious people among the common races."
+    },
+    {
+      "id": 5,
+      "name": "Dragonborn",
+      "description": "Born of dragons, as their name proclaims, dragonborn are a race of proud and honorable warriors."
+    },
+    {
+      "id": 6,
+      "name": "Gnome",
+      "description": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body."
+    },
+    {
+      "id": 7,
+      "name": "Half-Elf",
+      "description": "Half-elves combine what some say are the best qualities of their elf and human parents."
+    },
+    {
+      "id": 8,
+      "name": "Half-Orc",
+      "description": "Half-orcs are commonly seen as the result of orc raids and human nations to the north colliding violently."
+    },
+    {
+      "id": 9,
+      "name": "Tiefling",
+      "description": "Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human."
+    }
+  ]
+}

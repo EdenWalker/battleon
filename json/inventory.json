@@ -1,0 +1,67 @@
+[
+  {
+    "item_name": "Shortsword",
+    "quantity": 1,
+    "description": "A simple but finely crafted shortsword."
+  },
+  {
+    "item_name": "Thieves' Tools",
+    "quantity": 1,
+    "description": "Includes lockpicks, small file, and a mirror mounted on a metal handle."
+  },
+  {
+    "item_name": "Potion of Healing",
+    "quantity": 2,
+    "description": "Restores 2d4+2 hit points when consumed."
+  },
+  {
+    "item_name": "Backpack",
+    "quantity": 1,
+    "description": "A sturdy backpack to carry equipment and supplies."
+  },
+  {
+    "item_name": "Rope, hempen (50 feet)",
+    "quantity": 1,
+    "description": "Strong, but prone to fraying."
+  },
+  {
+    "item_name": "Crowbar",
+    "quantity": 1,
+    "description": "A heavy iron bar, usually used for prying."
+  },
+  {
+    "item_name": "Dagger",
+    "quantity": 2,
+    "description": "Small, light, and easily concealed."
+  },
+  {
+    "item_name": "Thief's Costume",
+    "quantity": 1,
+    "description": "Includes dark clothing, a hood, and gloves for stealthy operations."
+  },
+  {
+    "item_name": "Antitoxin",
+    "quantity": 1,
+    "description": "Neutralizes poison when applied to a creature."
+  },
+  {
+    "item_name": "Grappling Hook",
+    "quantity": 1,
+    "description": "Allows climbing or securing a rope to an object."
+  },
+  {
+    "item_name": "Ink and Quill",
+    "quantity": 1,
+    "description": "For writing and copying maps or documents."
+  },
+  {
+    "item_name": "Mirror, steel",
+    "quantity": 1,
+    "description": "A small mirror mounted on a folding metal frame."
+  },
+  {
+    "item_name": "Thieves' Cant Book",
+    "quantity": 1,
+    "description": "A small book with coded messages and secret signs used by rogues."
+  }
+]
