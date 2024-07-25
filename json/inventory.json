@@ -2,66 +2,79 @@
   {
     "item_name": "Shortsword",
     "quantity": 1,
-    "description": "A simple but finely crafted shortsword."
+    "description": "A simple but finely crafted shortsword.",
+    "cost": 100 
   },
   {
     "item_name": "Thieves' Tools",
     "quantity": 1,
-    "description": "Includes lockpicks, small file, and a mirror mounted on a metal handle."
+    "description": "Includes lockpicks, small file, and a mirror mounted on a metal handle.",
+    "cost": 250 
   },
   {
     "item_name": "Potion of Healing",
     "quantity": 2,
-    "description": "Restores 2d4+2 hit points when consumed."
+    "description": "Restores 2d4+2 hit points when consumed.",
+    "cost": 50 
   },
   {
     "item_name": "Backpack",
     "quantity": 1,
-    "description": "A sturdy backpack to carry equipment and supplies."
+    "description": "A sturdy backpack to carry equipment and supplies.",
+    "cost": 20 
   },
   {
     "item_name": "Rope, hempen (50 feet)",
     "quantity": 1,
-    "description": "Strong, but prone to fraying."
+    "description": "Strong, but prone to fraying.",
+    "cost": 10 
   },
   {
     "item_name": "Crowbar",
     "quantity": 1,
-    "description": "A heavy iron bar, usually used for prying."
+    "description": "A heavy iron bar, usually used for prying.",
+    "cost": 2 
   },
   {
     "item_name": "Dagger",
     "quantity": 2,
-    "description": "Small, light, and easily concealed."
+    "description": "Small, light, and easily concealed.",
+    "cost": 20 
   },
   {
     "item_name": "Thief's Costume",
     "quantity": 1,
-    "description": "Includes dark clothing, a hood, and gloves for stealthy operations."
+    "description": "Includes dark clothing, a hood, and gloves for stealthy operations.",
+    "cost": 30 
   },
   {
     "item_name": "Antitoxin",
     "quantity": 1,
-    "description": "Neutralizes poison when applied to a creature."
+    "description": "Neutralizes poison when applied to a creature.",
+    "cost": 50 
   },
   {
     "item_name": "Grappling Hook",
     "quantity": 1,
-    "description": "Allows climbing or securing a rope to an object."
+    "description": "Allows climbing or securing a rope to an object.",
+    "cost": 20 
   },
   {
     "item_name": "Ink and Quill",
     "quantity": 1,
-    "description": "For writing and copying maps or documents."
+    "description": "For writing and copying maps or documents.",
+    "cost": 8 
   },
   {
     "item_name": "Mirror, steel",
     "quantity": 1,
-    "description": "A small mirror mounted on a folding metal frame."
+    "description": "A small mirror mounted on a folding metal frame.",
+    "cost": 10 
   },
   {
     "item_name": "Thieves' Cant Book",
     "quantity": 1,
-    "description": "A small book with coded messages and secret signs used by rogues."
+    "description": "A small book with coded messages and secret signs used by rogues.",
+    "cost": 100
   }
 ]

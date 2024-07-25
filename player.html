@@ -80,16 +80,16 @@
       <div class=" row " style="margin-inline: auto">
         <div class="col-6 "style="margin-inline: auto">
           <label for="skills">Skills:</label><br>
-          <div class="col-12 paper2 " id="skills" name="skills" rows="4"
-            cols="50"> swordsmanship": Proficient, shieldDefense Novice, athletics: Average</div>
+          <textarea class="col-12 paper2 " id="skills" name="skills" style="min-height: 100px"
+            cols="50"> swordsmanship: Proficient, shieldDefense Novice, athletics: Average</textarea>
         </div>
         <div class="col-6  "style="margin-inline: auto">
           <label for="inventory">Inventory:</label><br>
-          <div class="col-12 paper2" id="inventory" name="inventory" rows="4"
-            cols="50"> Longsword", Wooden Shield, Chainmail Armor, Health Potion x2</div>
+          <textarea class="col-12 paper2" id="inventory" name="inventory" 
+            cols="50"style="min-height: 100px"></textarea>
         </div>
       </div>
-      <input class="col-11 btn paper2 mt-1" style="margin-inline: auto; ;" type="submit" value="Submit">
+      <input class="col-11 btn paper2 mt-1" style="margin-inline: auto; ;" type="submit" value="submit">
     </form>
 
     <div style="margin-top: 20px; text-align: center;">
@@ -166,13 +166,22 @@
         </tr>
       </table>
     </div>
+    <div class="save clear ">
+      <label for="savetext">Save</label><br>
+      <input id="savetext" class="paper2" style="width: 25%;"><br><br>
+
+      <button id="loadsavefile" class="btn paper2">Load Save file</button>
+     
+    </div>
+    <button id="makesavefile"  class="col-12 paper2 mt-1" style="margin-top: 20px; text-align: center;"onclick="generateSaveFile()">Create Save File</button>
+    <textarea class="clear" id="saveouttext" style="width: 100%"></textarea>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <script src="player.js"></script>
-  <script src="action.js"></script>
-  <script src="monstercode.js"></script>
+  <script src="./js/player.js"></script>
+  <script src="./js/action.js"></script>
+  <script src="./js/monstercode.js"></script>
 </body>
 
 </html>

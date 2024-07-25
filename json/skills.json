@@ -72,47 +72,6 @@
       "name": "Survival",
       "description": "Finding food and water, tracking creatures, or navigating outdoors."
     }
-  ],
-  "proficiencies": {
-    "saving_throws": [
-      "Strength",
-      "Dexterity",
-      "Constitution",
-      "Intelligence",
-      "Wisdom",
-      "Charisma"
-    ],
-    "weapons": [
-      "Simple Weapons",
-      "Martial Weapons"
-    ],
-    "armor": [
-      "Light Armor",
-      "Medium Armor",
-      "Shields"
-    ],
-    "tools": [
-      "Thieves' Tools",
-      "Smith's Tools",
-      "Herbalism Kit",
-      "Navigator's Tools",
-      "Musical Instruments"
-    ],
-    "languages": [
-      "Common",
-      "Dwarvish",
-      "Elvish",
-      "Giant",
-      "Gnomish",
-      "Goblin",
-      "Halfling",
-      "Orc",
-      "Abyssal",
-      "Celestial",
-      "Infernal",
-      "Primordial",
-      "Sylvan",
-      "Undercommon"
-    ]
-  }
+  ]
+
 }

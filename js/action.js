@@ -34,6 +34,20 @@ document.addEventListener('DOMContentLoaded', function() {
           <p><strong>Defence:</strong> ${randomMonster.defence}</p>
       `;
   }
+  fetch('../json/monster.json')
+  .then(response => response.json())
+  .then(data => {
+
+    if (Array.isArray(data) && data.length > 0) {
+      // Get the last monster object
+      const lastMonster = data[data.length - 1];
+      
+
+      const lastMonsterId = lastMonster['monster_id'];
+      console.log('Last monster_id:', lastMonsterId);
+      const monsterIdInput = document.getElementById('monster_id');
+      monsterIdInput.placeholder = String(parseInt(lastMonsterId) + 1).padStart(4, '0');
+    }})
 
   // Event listener for #hunt button click
   document.getElementById('hunt').addEventListener('click', function() {

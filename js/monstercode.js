@@ -143,7 +143,7 @@ async function populateForm(index) {
 
 
 // Event listeners for navigation buttons
-document.getElementById('prevButton').addEventListener('click', function() {
+document.querySelector('#prevButton').addEventListener('click', function() {
   currentIndex = (currentIndex - 1 + monstersData.length) % monstersData.length;
   populateForm(currentIndex);
 });
